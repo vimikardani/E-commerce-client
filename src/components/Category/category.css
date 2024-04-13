@@ -1,0 +1,20 @@
+/* style on category container */
+div.cat-container{
+    display: inline-flex;
+    height: 22vh;
+    width: 97%;
+    background-color: #fff;
+    margin: 0rem 1.2rem;
+    position: relative;
+    top: 0.5rem;
+    
+}
+/* style on category div */
+div.category{
+    padding: 1.5rem 2rem;
+}
+div>span.category-text-name{
+    font-size: 13px;
+    color: #212121;
+    font-weight: bold;
+}

@@ -1,0 +1,79 @@
+footer{
+    width: 100%;
+    background-color: rgb(23, 35, 55);
+    margin: 0rem;
+    position: relative;
+    top: 1.5rem;
+}
+
+div.footer-container{
+    height: max-content;
+    width: 90%;
+    padding: 2rem;  
+    display: inline-flex;
+    
+}
+div.left-footer{
+    display: inline-flex;
+    gap: 1.5rem;
+    width: 70%;
+}
+div.about,div.help,div.consumerpolicy,div.social{
+    padding: 0.5rem;
+    padding-left: 2rem;
+    
+}
+span.footer-left-title{
+    color: #878787;
+    font-size: 12px;
+}
+a.about-list-link,a.help-list-link,a.consumer-list-link,a.social-list-link{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul.about-list,ul.help-list,ul.consumer-list,ul.social-list{
+    list-style: none;
+    padding-top: 0.5rem;
+}
+ul>li{
+    padding-top: 0.4rem;
+}
+div.border{
+    border-right: 1px solid #878787;
+    height: 30vh;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+div.right-footer{
+    display: inline-flex;
+    
+}
+div.mail{
+    padding: 0.5rem;
+    padding-left: 1rem;
+}  
+span.mail-text,span.address-text{
+    font-size: 12px;
+    color: #878787;
+}
+p.mail-address,p.regi-address{
+    font-size: 12px;
+    color: #fff;
+    padding-top: 1rem;
+    line-height: 20px;
+}
+div.footer-end{
+    padding: 2rem;
+    display: inline-flex;
+    gap: 4.5rem;
+    border-top: 1px solid #878787;
+}
+a.footer-end-text,span.footer-end-text{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}

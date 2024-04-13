@@ -1,0 +1,78 @@
+div.login-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+  
+}
+div.login-left{
+
+}
+div.login-right{
+    height: max-content;
+    width: 30vw;
+    height: 82.8vh;
+    border: 1px solid lightgray;
+    
+}
+form.login-form {
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+  div.login-header{
+    font-size: 18px;
+    text-align: center;
+    padding: 1rem;
+  }
+  div.login-title{
+    font-size: 22px;
+  }
+
+  div.form-container {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  /* style on user input */
+  input.input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  /* style on sign in and signup button */
+  button.signin-btn,a.signin-btn
+   {
+    background-color: #ff385c;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin: 8px 5px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  button.signup-btn,a.signup-btn{
+    border: none;
+    font-size: 14px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    background-color: #fff;
+    color: #212121;
+    text-decoration: none;
+  }
+  /* hover effect on buttons */
+  button.signin-btn:hover {
+    opacity: 0.8;
+    background-color: rgb(236, 97, 143);
+  }
+  button.signup-btn:hover{
+    text-decoration: underline;
+  }
+  
+  

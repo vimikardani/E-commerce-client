@@ -1,0 +1,121 @@
+div.cart-container{
+    border-top: 1px solid lightgray;
+    background-color: rgb(245, 243, 243);
+    height: 100vh;
+    width: 100%;
+    display: inline-flex;
+    
+}
+div.cart-product{
+    width: 60%;
+}
+h1.cart-header{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 35rem;
+}
+table.cart-table{
+    margin: 2rem 4rem;
+}
+tr.cart-row{
+    border-bottom: 1px solid gray;
+    width: 20vw;
+}
+th.cart-title{
+    height: 8vh;
+    width: 10vw;
+    border-bottom: 1px solid gray ;
+    background-color: lightgray;
+}
+hr{
+    width: 60vw;
+}
+td.cart-data{
+    width: 10vw;
+    text-align: center;
+}
+td.cart-pro-info{
+    display: flex;
+    width: 20vw;
+    
+}
+span.cart--pro-name{
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+}
+img.cart-pro-img{
+    margin-top: 0.5rem;
+    height: 10vh;
+    width: 6vw;
+}
+
+button.decreaseQnt{
+    height: 1.5rem;
+    width: 1rem;
+    margin-right: 1rem;
+    font-size: 18px;
+   border: 1px solid gray;
+    
+}
+button.increaseQnt{
+    height: 1.5rem;
+    width: 1rem;
+    margin-left: 1rem;
+    font-size: 18px;
+   border: 1px solid gray;
+}
+button.removeBtn{
+    height: 1.5rem;
+    width: 1rem;
+    margin-left: 3rem;
+    font-size: 18px;
+   border: 1px solid gray;
+}
+div.cart-summary{
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    height: max-content;
+    width: 35%;
+    margin-top: 6rem;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+}
+h1.cart-summary-header{
+    font-size: 22px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+}
+
+div.subtotal,div.shippingcharge,div.tax{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 16px;
+    
+}
+div.tax{
+    border-bottom: 1px solid gray;
+}
+div.total{
+    background-color: rgb(194, 191, 191);
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+}
+button.checkoutBtn{
+    width: 15vw;
+    height: 8vh;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(3, 117, 3, 0.726);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 8rem;
+    margin-top: 1rem;
+}

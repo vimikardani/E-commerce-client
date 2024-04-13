@@ -1,0 +1,155 @@
+div.productDetails{
+    border-top: 1px solid lightgray;
+    display: flex;
+}
+div.pro-images{
+    display: inline-flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+div.col-images{
+    display: flex;
+    flex-direction: column;
+}
+div.row-images{
+    display: inline-flex;
+    border: 1px solid rgb(238, 236, 236);
+    gap: 1rem;
+    padding: 2rem;
+}
+img.row-img{
+    height: 80vh;
+    width: 23vw;
+}
+img.col-img{
+    height: 4rem;
+    width: 3.5rem;
+    padding: 0.5rem;
+    border: 1px solid rgb(238, 236, 236);
+    margin-top: 0.2rem;
+}
+div.actionButton{
+    margin-left: 3rem; 
+}
+button.addtocartBtn{
+    height: 8vh;
+    width: 16vw;
+    border-radius: 2px;
+    border: none;
+    background-color: #FF9F00;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-flex;
+    gap: 1rem; 
+   align-items: center;
+   justify-content: center;
+}
+button.buynowBtn{
+    margin-left: 1.2rem;
+    height: 8vh;
+    width: 16vw;
+    border-radius: 2px;
+    border: none;
+    background-color: #FB641B;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-flex;
+    gap: 1rem; 
+   align-items: center;
+   justify-content: center;
+}
+div.proDetails-contailner{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+div>span.pro-name,.color-text,.size-text{
+    color: #878787;
+    font-size: 16px;
+}
+div.pro-info-details{
+    margin-top: 0.5rem;
+}
+div>span.pro-info{
+    color:#212121;
+    font-size: 18px;
+}
+div>span.pro-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #26a541;
+}
+div.pro-price-details{
+    display: flex;
+    margin-top: 0.5rem;
+}
+div>span.pro-price{
+    font-size: 28px;
+    font-weight: bold;  
+}
+
+div.color-details{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+div.black,div.blue,div.green,div.wine{
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid;
+    background-color: black;
+    margin-left: 1.2rem;
+}
+div.blue{
+    background-color: orangered;
+    border: none;
+}
+div.green{
+    background-color: green;
+    border: none;
+}
+div.wine{
+    background-color:rgb(61, 2, 2);
+    border: none;
+}
+div.size-details{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+div.small,div.medium,div.large,div.xl{
+    height: 3rem;
+    width: 3rem;
+    border: 2px solid lightgray;
+    text-align: center;
+    padding-top: 0.8rem;
+    margin-left: 1.5rem;
+}
+div.product-specification{
+    margin-top: 2rem;
+    width: 28vw;
+    /* border: 1px solid gray; */
+}
+span.product-spe-title{
+    font-size: 20px;
+}
+div.specification{
+    margin-top: 1rem;
+}
+div.type,div.fabric,div.packof,div.idealfor{
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    padding: 1rem;
+}
+span.pro-spe-text{
+    color: #878787;
+}
+span.pro-spe-value{
+    text-align: right;
+}
+
+

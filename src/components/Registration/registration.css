@@ -1,0 +1,52 @@
+div.regi-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+div.regi-header{
+    padding: 1rem;
+    font-size: 20px;
+    text-align: center;  
+}
+hr.regi-hr{
+    width:30vw ;
+}
+div.regi-right{
+    width: 30vw;
+    height: 87vh;
+    border: 1px solid lightgray;
+}
+input.regi-input{
+    width: 80%;
+    padding: 11px 15px;
+    margin: 9px 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+button.regi-btn,a.regi-btn{
+    background-color: #fb641b;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin: 8px 5px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 5px;
+    text-decoration: none;
+}
+button.login-link,a.login-link{
+    border: none;
+    font-size: 14px;
+    color: #2873f0;
+    margin-left: 3rem;
+    background-color: #fff;
+    color: #212121;
+    text-decoration: none;
+}
+a.login-link:hover{
+    text-decoration: underline;
+}
